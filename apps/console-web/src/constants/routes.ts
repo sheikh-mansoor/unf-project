@@ -1,0 +1,17 @@
+export const ROUTES = {
+  HOME_PAGE: "/",
+  DASHBOARD: "/",
+  USERS: "/users",
+  USER_DETAILS: "/user/:id",
+  TIERS: "/tiers",
+  LOGIN: "/login",
+  FORGOT_PASSWORD: "/forgot-password",
+  RESET_PASSWORD: "/reset-password",
+  LOYALTY: "/loyalty",
+  CHAINS: "/chains",
+  RESTAURANTS: "/restaurants",
+  ADD_NEW_RESTAURANT: "/add-new-restaurant",
+  MANAGERS: "/managers",
+  SETTINGS: "/settings",
+  PLATFORM_MANAGER_LOYALTY: "/platform-manager-loyalty",
+};

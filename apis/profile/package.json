@@ -1,0 +1,32 @@
+{
+  "author": "Osama Akhter",
+  "dependencies": {
+    "@apollo/server": "^4.10.4",
+    "@pothos/core": "^3.41.1",
+    "@unf/node-common": "workspace:^",
+    "apollo-server": "^3.13.0",
+    "convict": "^6.2.4",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.8.1"
+  },
+  "description": "Profile service for the UNF Federated Graph",
+  "devDependencies": {
+    "@types/convict": "^6.1.6",
+    "@types/node": "^20.12.12",
+    "@unf/eslint-config": "workspace:^",
+    "prisma": "^5.14.0",
+    "tsx": "^4.10.3"
+  },
+  "engines": {
+    "node": ">=20.12.2",
+    "pnpm": ">=9.1.1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "name": "profile",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "type": "module",
+  "version": "1.0.0"
+}

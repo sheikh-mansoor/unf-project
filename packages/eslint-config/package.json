@@ -1,0 +1,22 @@
+{
+  "author": "Osama Akhter",
+  "description": "Shared ESLint config to be used across the UNF ecosystem",
+  "devDependencies": {
+    "@eslint/js": "^8.57.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^15.2.0",
+    "typescript-eslint": "^7.9.0"
+  },
+  "engines": {
+    "node": ">=20.12.2",
+    "pnpm": ">=9.1.1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "main": "eslint.config.js",
+  "types": "eslint.config.d.ts",
+  "name": "@unf/eslint-config",
+  "type": "module",
+  "version": "1.0.0"
+}

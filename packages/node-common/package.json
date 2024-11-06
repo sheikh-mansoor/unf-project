@@ -1,0 +1,25 @@
+{
+  "author": "Osama Akhter",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "name": "@unf/node-common",
+  "scripts": {
+    "build": "tsc -p .",
+    "prepublish": "pnpm build"
+  },
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "@unf/eslint-config": "workspace:^",
+    "tsx": "^4.10.3",
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20.12.2",
+    "pnpm": ">=9.1.1"
+  }
+}
